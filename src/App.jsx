@@ -8,6 +8,9 @@ import QuestionView from "./components/QuestionView";
 const initialState = {
   // Start at the first question (index 0)
   currentQuestion: 0,
+  // currentQuestion: 10,
+  // currentQuestion: 48,
+  // currentQuestion: questions.length - 1,
   answers: Array(questions.length).fill(null),
   submitted: false,
   timeLeft: 57 * 60,
